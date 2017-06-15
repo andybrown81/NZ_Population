@@ -1,0 +1,330 @@
+Region,Site.Number,Lab No.,CRA,Error,Material,Material ID,Source,Rejected Previously,Accepted Y/N
+Southern,C45/1,NZ0883,306,41,Wood,Leptospermum scoparium,Database,,Y
+Southern,D41/4,NZ6742,399,33,Charcoal,Nothofagus sp.,Database,,Y
+Southern,D41/5,NZ6755,355,33,Charcoal,"Nothofagus sp. Dominant. Plagianthus sp., Leptospermum sp. Unidentified Minor",Database,,Y
+Southern,D41/5,NZ6758,339,32,Charcoal,"Nothofagus sp. Dominant. Leptospermum scoparium, Weinmannia racemose - subdominant. Psuedopanax colensoi/arboreous, Coriaria arborea minor",Database,,Y
+Southern,D41/5,NZ6769,344,51,Charcoal,"Nothofagus sp. Dominant. Leptospermum scoparium, Coriaria arborea, Shefflera digitata, Hebe sp. Podocarpus totara subdominant, Pittisporum sp minor.",Database,,Y
+Southern,D41/7,NZ6733,281,50,Charcoal,"Leptospermum scoparium - dominant; Coprosma sp. - subdominant; Phyllocladus alpinus, Podocarpus totara, P. hallii, Nothofagus solandri var - minor; fern, unidentified - trace",Anderson and McGovern-Wilson 1991,,Y
+Southern,D41/7,NZ4472,399,33,Charcoal,Nothofagus sp. [probably N.solandri var.],Database,,Y
+Southern,D42/1,NZA2228,611,89,Charcoal,"Burnt faethers, tussock, stems, beech leaves, and a total absence of wood charcoal",Database,,Y
+Southern,D48/21,Wk21442,464,36,Charcoal,Hebe salicifolia 7 - Pseudopanax colensoi 7 - Leptospermum scoparium 6 - Fuchsia excorticata 3 - Griselina littoralis 3 - Myrsine australis 2,Smith and Anderson 2008,,Y
+Southern,D48/21,Wk21443,542,35,Charcoal,Leptospermum scoparium 4 - Hebe salicifolia 2 - Pseudopanax colensoi 7 - Melicytus ramiflorus 1 - Myrsine australis 1,Smith and Anderson 2008,,Y
+Southern,D48/5,Wk21436,740,35,Charcoal,Hebe salicifola 6 - Pseudopanax colensoi 5 - Leptospermum scoparium 4 - Pseudopanax edgerleyi 3 - Myrsine australis 2 - Coprosma sp. 1 - Griselinia littoralis 1 - Pseudopanax crassifolius 1,Smith and Anderson 2008,,Y
+Southern,D48/5,Wk21437,631,35,Charcoal,Myrsine australis 5 - Griselinia littoralis 3 - Leptospermum scoparium 3 - Hebe salicifolia 1 - Coprosma sp. 1 - Aristotelia serrata 1 - Fuchsia excorticata 1,Smith and Anderson 2008,,Y
+Southern,D48/5,Wk21438,197,35,Charcoal,Fern ? Sp. 4 - Pteridium esculentum 2 - Fuchsia excorticata 1 - Pseudopanax edgerleyi 1 - Ascarina lucida 1 ,Smith and Anderson 2008,,Y
+Southern,D48/5,Wk21439,529,35,Charcoal,Aristotelia serrata 9 - Hebe salicifolia 8 - Leptospermum scoparium 7 - Pseudopanax edgerleyi 2 -  Ascarina lucida 1 - Dracophyllum longifolium 1,Smith and Anderson 2008,,Y
+Southern,D48/5,Wk21440,517,34,Charcoal,Hebe salicifolia 3 - Leptospermum scoparium 3 - Coprosma sp. 2 - Aristotella serrata 1 - Fuchsia excorticata 1 - Myrsine australis 1,Smith and Anderson 2008,,Y
+Southern,D48/5,Wk21441,548,35,Charcoal,Hebe salicifolia 5 - Leptospermum scoparium 3 - Coprosma sp. 2 - Pseudopanax crassifolius 2 - Fuchsia excorticata 1 ,Smith and Anderson 2008,,Y
+Southern,E38/3,NZ7348,541,72,Charcoal,"Weinmannia recemose, Daacrydium cupresinum, Nothofagus sp., Olearia sp.",Database,,Y
+Southern,E38/7,NZ7340,669,72,Charcoal,"Hoheria sp., Schleffera digitata, Hebe sp., Metrosideros sp., Nothofagus sp., Weinmannia racemosa, Aristotelia serrata, Myrsine australis, Lagarostrabos colensoi, Podocarpus totara/hallii",Database,,Y
+Southern,E40/2,NZ5324,587,56,Charcoal,Coprosma sp,Database,,Y
+Southern,E40/2,NZ5325,723,57,Charcoal,Coprosma sp - dominant. Sophora sp [probably S microphylla] -subdominant. Nothofagus sp. - trace,Database,,Y
+Southern,E40/2,NZ5323,337,55,Charcoal,"Sophora sp [probably S. microphylla] dominant, Nothofagus sp - co-dominant",Database,,Y
+Southern,E40/2,NZ5326,442,41,Charcoal,Nothofagus sp.-dominant. Hebe sp. Minor,Database,,Y
+Southern,E41/196,NZ6687,672,33,Charcoal,Phyllocladus alpinus - dominant; Coprosma sp. - subdominant,Database,,Y
+Southern,E47/13,NZ4469,656,29,Charcoal,"Leptospermum scoparium 76%, Podocarpus totara/hallii [probably P totara] 20 % Pittosporum sp 4 %",Database,,Y
+Southern,F41/1,NZ6039,699,46,Charcoal,"Nothofagus sp. - dominant. Phyllocladus alpinus, Coprosma sp, - minor. Hebe sp - trace",Database,,Y
+Southern,F41/1,NZ6040,763,34,Charcoal,Phyllocladus alpinus - dominant; Discaria toumatoui - trace,Database,,Y
+Southern,G41/2,NZ5336,365,55,Charcoal,Discaria toumatou - dominant. Podocarpus totara/hallii - minor. Leptospermum ericoides - trace,Database,,Y
+Southern,G41/2,NZ5337,340,39,Charcoal,Discaria toumatou,Database,,Y
+Southern,G41/2,NZ5338,426,32,Charcoal,Discaria toumatou,Database,,Y
+Southern,G41/288,NZ5416,303,45,Charcoal,Discaria toumatou,Database,,Y
+Southern,G41/453,NZ5340,632,45,Charcoal,Discaria toumatou - dominant. Sophora sp [probably S.microphylla] - minor. Coprosma sp. Leptospermum ericoides - trace,Database,Anderson (5),Y
+Southern,G41/453,NZ5341,376,38,Charcoal,Discaria toumatou - dominant. Hebe sp. - minor. Sophora sp [probably S microphylla] Coprosma sp - minor,Database,Anderson (5),Y
+Southern,G42/13,NZ5044,692,33,Charcoal,"Coprosma sp. Dominant, Olearia sp. Minor)",Anderson 1978,,Y
+Southern,G42/13,NZ5045,709,33,Charcoal,Coprosma sp.-dominant. Olearia sp subdominant. Hebe sp minor,Anderson 1978,,Y
+Southern,G42/13,NZ5046,714,33,Charcoal,"Coprosma sp. Dominant, Olearia sp. Minor)",Anderson 1978,,Y
+Southern,G42/13,NZ5047,611,33,Charcoal,Oleria sp. Dominant. Coprosman sp. Subdominant,Anderson 1978,,Y
+Southern,G42/13,NZ5048,691,33,Charcoal,Oleria sp. Dominant. Coprosman sp. Subdominant,Anderson 1978,,Y
+Southern,G42/13,NZ5049,652,33,Charcoal,Oleria sp. Dominant. Coprosman sp. Subdominant,Anderson 1978,,Y
+Southern,G42/13,NZ5050,720,33,Charcoal,"Coprosma sp. dominant, Olearia sp. Minor, Phylloclodies alpimus - rare",Anderson 1978,,Y
+Southern,G42/13,NZ5051,668,33,Charcoal,Hebe sp. Olearia sp. Coprosma sp.,Anderson 1978,,Y
+Southern,G42/13,NZ5052,663,28,Charcoal,Oleria sp. Dominant. Coprosman sp. Subdominant,Anderson 1978,,Y
+Southern,G42/183,NZ4715,309,82,Charcoal,"Hebe sp. 50%, Discaria toumatou 50%",Database,,Y
+Southern,G42/183,NZ4716,579,96,Charcoal,"Discaria toumatou 66%, Hebe sp. 34 %",Database,,Y
+Southern,G43/105,NZ6654,672,52,Charcoal,Phyllocladus alpinus - dominant; Leptospermum scoparium - minor,Database,,Y
+Southern,G43/105,NZ6657,671,54,Charcoal,Phyllocladus alpinus - dominant; Leptospermum scoparium - minor,Database,,Y
+Southern,G43/183,NZ4714,399,88,Charcoal,"Hebe sp. 84%, Discaria toumatou 16%",Database,,Y
+Southern,G43/51,NZ6855,655,40,Charcoal,"Hoheria/Plagianthus gp - dominant; Coprosma sp (2), Olearia sp - subdominant; unidentified - minor",Database,,Y
+Southern,G47/50,Wk1761,650,45,Charcoal,Twigs from the following: Leptospermum scoparium - 13pc; Pseudopanax arboreus - 3pc; Pseudowinteria colorata - 3pc; Hoheria sp. - 3pc; Nothofagus sp. - 2pc; Coprosma sp. - 1pc; Pittosporum sp. - 1pc; Archeria traversi - 1pc; bark,Database,,Y
+Southern,G47/50,Wk1762,640,45,Charcoal,Leptospermum scoparium - 14pc; Pseudopanax edgerleyi - 6pc; Myrsine australis - 3pc; Hoheria sp. - 1pc; Dracophyllum sp. - 1pc,Database,,Y
+Southern,G47/50,NZA1415,570,66,Charcoal,Leptospermum scoparium - 1pc; Pseudopanax arboreus - 1pc; Carpodetus serratus - 1pc,Database,,Y
+Central,H39/19,WK2782,640,35,Charcoal,Short lived,Challis 1995,,Y
+Central,H39/19,WK2916,620,45,Charcoal,Short lived,Challis 1995,,Y
+Central,H39/19,WK2991,590,45,Charcoal,Short lived,Challis 1995,,Y
+Southern,I38/4,NZ6297,647,-25.35,Charcoal,Myrsine australis dominant Hymenanthera minor,Database,,Y
+Central,I38/5,NZ6364,657,28,Charcoal,Myrsine australis,Fankhauser 1992,,Y
+Southern,I40/43,NZ6210,609,33,Charcoal,Myrsine australis,Fankhauser 1992,,Y
+Central,I40/44,NZ6409,718,34,Charcoal,Olearia sp. Myrsine australis,Fankhauser 1992,,Y
+Southern,I40/46,NZ6211,589,33,Charcoal,Myrsine australis,Fankhauser 1992,,Y
+Central,I40/48,NZ6383,588,28,Charcoal,"Coprosma sp. Dominant, Hebe sp. Minor",Fankhauser 1992,,Y
+Southern,I40/49,NZ6171,509,41,Charcoal,Coprosma sp.,Fankhauser 1992,,Y
+Southern,I40/51,NZ6212,392,25,Charcoal,Myrsine australis dominant Hymenanthera minor,Fankhauser 1992,,Y
+Central,I40/52,NZ6393,588,34,Charcoal,"Myrsine australis dominant, Sophora microphylla minor",Fankhauser 1992,,Y
+Southern,I44/17,NZ6698,182,45,Charcoal,"Myrsine australis - dominant; Carpodetus serratus, Pittosporum tenuifolium - subdominant; Hebe sp., unidentified - minor)",Database,,Y
+Southern,I44/17,NZ6770,258,50,Charcoal,"Leptospermum scoparium, Myrsine australis - codominant; Pittisporum tenuifolium, Carpodetus serratus, Coprosma sp., Hebe sp., unidentified - minor ",Database,,Y
+Southern,I44/17,NZ6759,257,50,Charcoal,"Melicytus ramiflorus - dominant; Sophora microphylla, Myrsine australis, Leptospermum scoparium, Hebe sp., Coriaria arborea, Podocarpus totara/hallii, unidentified - minor)",Database,,Y
+Southern,I44/23,NZ4704,476,56,Charcoal,"Coprosma sp. - dominant; Podocarpus totara/hallii, Hebe sp. - sub-dominant; Pittosporum sp., Hoheria or Plagianthus sp, Leptospermum scoparium - minor; Pseudopanax sp. - trace",aaMcGovern-Wilson 1985,,Y
+Southern,I44/68,NZA22837,679,35,Charcoal,"coprosma, pittosporum, plagianthus, mapau, kanuka",Briden 2005,,Y
+Southern,I44/68,NZA22838,691,35,Charcoal,"Cordyline australlis, kanuka, southern rata",Briden 2005,,Y
+Southern,I44/68,NZA22836,498,45,Charcoal,"Cordyline australis, coprosma sp, ngaio, ?shrub",Briden 2005,,Y
+Southern,J40/10,NZ6208,560,28,Charcoal,Lophomyrtus obcordata,Fankhauser 1992,,Y
+Southern,J40/12,NZ6209,675,28,Charcoal,Myrsine australis,Fankhauser 1992,,Y
+Southern,J40/18,NZ6170,215,26,Charcoal,Nothofagus sp. Coprosma sp.,Fankhauser 1992,,Y
+Southern,J40/18,NZ6300,173,32,Charcoal,Hebe sp. Dominant with Podocarpus totara,Fankhauser 1992,,Y
+Southern,J40/21,NZ6166,180,36,Charcoal,Letospernum scoparium dominant; Psuedopanax crassifoilius,Fankhauser 1992,,Y
+Central,J40/21,NZ6411,140,32,Charcoal,Leptospermum ericoides,Fankhauser 1992,,Y
+Southern,J43/1,Wk2790,700,90,Charcoal,Muehlenbeckia sp - 10pc. Coprosma sp. - 4pc. Discaria toumatou - 6pc. Plagianthus divaricatus - 5 pc. Olearia sp. - 3 pc,Smith 1999,,Y
+Southern,J43/1 ,NZ7961,443,83,Charcoal,"Discaria toumatou - 70%, Ribbonwood/lacebark - 26%, Cordyline australis stem - 4%",Smith 1999,,Y
+Southern,J43/1 ,NZA2802,494,62,Charcoal,Olearia sp.,Smith 1999,,Y
+Southern,J43/1 ,NZ7960,507,64,Charcoal,"Coprosma sp. - 50%, Discaria toumatou - 25%, Shrub ?Coprosma sp. - 25%",Smith 1999,,Y
+Southern,J43/1 ,NZA3740,624,65,Charcoal,Discaria toumatou,Smith 1999,,Y
+Southern,J43/1 ,NZ7964,665,41,Charcoal,"Discaria toumatou - 58%, Olearia sp. - 16%, Hebe sp. - 16%, bark - 8%",Smith 1999,,Y
+Southern,J43/1 ,NZ7963,602,69,Charcoal,"Discaria toumatou - 58%, shrub sp. - 21%, Ribbonwood/lacebark - 11%, Hebe sp. - 5%, Coprosma sp. - 5% ",Smith 1999,,Y
+Southern,J43/1 ,NZ8096,705,35,Charcoal,"Discaria toumatou - 40%, Pittosporum sp. - 32%, Ribbonwood - 28%",Smith 1999,,Y
+Southern,J43/1 ,NZ8098,655,33,Charcoal,"Discaria toumatou - 34%, Ribbonwood - 28%, Hebe sp. - 21%, Coprosma sp. - 10%, Nothofagus sp. twig - 7%",Smith 1999,,Y
+Southern,J43/1 ,NZ8097,647,37,Charcoal,"Plagianthus divaricatus - 38%, Hebe sp. - 31%, Discaria toumatou - 23%, Kunzea ericoides - 4%, Pseudopanax sp. - 4%) ",Smith 1999,,Y
+Southern,J43/1 ,NZ8099,624,37,Charcoal,"Ribbonwood - 33%, Discaria toumatou - 23%, Pittosporum sp. - 16%, Myrsine australis - 15%, Olearia sp. - 6%, Hebe sp. - 6%) ",Smith 1999,,Y
+Southern,J43/1 ,Wk 2789,550,90,Charcoal,Discaria toumatou - 13 pieces. Pittosporum sp. - 4pc. Muehlenbeckia sp. - 6pc. Coprosma sp. - pc. Shrub sp. 1 pc,Database,,Y
+Southern,J43/2,NZ7759,627,47,Charcoal,"Olearia - 31%, Hoheria - 25%, Coprosma - 25%, Pseudopanax arboreus - 13%, Myrsine australis - 6%) ",Database,,Y
+Southern,J43/2,NZ7771,660,46,Charcoal,"Pseudowinteria colorata - 60%, Leptospermum scoparium - 30%, Pittosporum - 10%)",Database,,Y
+Southern,J43/2,NZ7734,781,37,Wood,Flax (Phormium tenax) ,Database,,Y
+Southern,J43/2,NZA0887,626,95,Charcoal,"Coprosma - 22%, Pseudowinteria colorata - 22%, Olearia - 22%, shrub sp. - 22%, Kunzea ericoides - 11%",Database,,Y
+Southern,J43/2,NZA0888,585,93,Charcoal,"Melicytus ramiflorus - 36%, Hoheria - 29%, Hebe - 14%, Elaeocarpus - 7%, Pteridium - 7%, Coprosma - 7%",Database,,Y
+Southern,J43/2,NZ7760,582,47,Charcoal,"Hoheria - 32%, Pittosporum - 21%, Shrup sp. - 21%, Olearia - 16%, Kunzea ericoides - 5%, Sophora microphylla - 5%",Database,,Y
+Southern,J43/2,NZ7756,670,47,Charcoal,"Hoheria - 95%, Myrsine australis - 5%",Database,,Y
+Southern,J43/2,Wk2589,630,35,Charcoal,Hoheria sp.,Database,,Y
+Southern,J43/2,Wk2590,620,35,Charcoal,pretreatment experiment - acid washed fraction  (Hoheria) ,Database,,Y
+Southern,J43/2,Wk2591,660,35,Charcoal,pretreatment experiment - ABA insol. fraction  (Hoheria) ,Database,,Y
+Southern,J43/2,Wk2592,580,45,Charcoal,pretreatment experiment - ABA sol. fraction  (Hoheria) ,Database,,Y
+Southern,J43/2,Wk2593,600,35,Charcoal,pretreatment experiment - HNO3 insol. fraction  (Hoheria) ,Database,,Y
+Southern,J43/2,Wk2594,660,45,Charcoal,pretreatment experiment - physically pretreated fraction (Hoheria) ,Database,,Y
+Southern,J43/2,NZ7755,646,47,Charcoal,"Hoheria - 99%, Hebe - 1%",Database,,Y
+Southern,J43/2,NZ7757,537,44,Charcoal,Hoheria sp.,Database,,Y
+Southern,J43/2,NZ7761,600,50,Charcoal,"Hoheria - 37%, Pittosporum - 23%, Coprosma - 20%, Myrsine australis - 10%, Pseudopanax - 7%, P. eugenioides - 3%",Database,,Y
+Southern,J43/2,NZ7758,580,47,Charcoal,"Hoheria - 80%, Olearia - 15%, Pseudopanax - 2%, Coprosma - 2% ",Database,,Y
+Southern,J43/2,NZ7762,647,47,Charcoal,Hoheria sp.,Database,,Y
+Southern,J43/2,NZ7763,592,48,Charcoal,"Hoheria - 50%, Pseudopanax arboreus - 17%, Pittosporum - 17%, Coprosma - 16%",Database,,Y
+Southern,L34/2,NZ7466,468,66,Wood,Coprosma sp. (twigs),Trotter 1988,,Y
+Southern,L37/4,Wk8547,720,50,Charcoal,"Prumnopitys taxifolia, Leptospermum scoparium",Jacomb 2005,,Y
+Central,M35/379,Wk16455,129,33,Charcoal,Unspecified twigs,Trotter and McCulloch 2005,,Y
+Central,M36/24,NZ0459,777,87,Charcoal,Log charcoal at base of oven,Trotter 1975b,Anderson (3),Y
+Central,M36/25,NZ0511,633,38,Wood,Bark and outer portion,Trotter 1975b,Anderson (5),Y
+Central,M37/161,Wk27973,662,36,Charcoal,"Short lived - Dodonea viscose, Myoporum laetum and Leucopogon fasciculatus",Trotter 2010,,Y
+Northern,N03/323,NZ6581,430,32,Charcoal,Beilschmiedia tarairi - dominant; Kunzea ericoides - subdominant,Database,,Y
+Northern,N03/455,NZ6608,482,40,Charcoal,Beilschmiedia tarairi - dominant; Leptospermum scoparium - minor; unidentified,Database,,Y
+Northern,N03/59,NZA2438,727,86,Charcoal,Pittosporum sp. [possibly tenuifolium] - 6pc; Coprosma sp. - 5pc; Hebe sp. - 2pc; Brachyglottis repanda - 1pc,Database,,Y
+Northern,N03/59,NZA2437,774,87,Charcoal,"Olearia sp. - 1pc; Beilschmiedia taraire - 1pc; Pseudopanax sp. [possibly arboreus] - 1pc, Leptospermum scoparium - 1pc",Database,,Y
+Northern,N03/59,NZA2436,632,86,Charcoal,"Dodonaea viscosa - 2pc; Pittosporum sp. - 1pc; Leptospermum scoparium - 1pc, Beilschmiedia taraire - 1pc",Database,,Y
+Northern,N03/59,NZ7921,300,54,Charcoal,Cassinia retorta - 5pc; Plagianthus betulinus - 3pc; Leptospermum scoparium - 3pc; Olearia sp. - 2pc; Melicytus ramiflorus - 1pc,Database,,Y
+Northern,N05/301,Wk2100,400,50,Wood,"Metrosideros excelsa, Cassinia retorta, Myoporum laetum, Myrsine australis, Prumnopitys taxifolia",Database,,Y
+Northern,N05/302,Wk13534,746,39,Charcoal,Leptospermum ericoides,Allen et al. 2005,,Y
+Northern,N05/302,Wk13536,183,36,Charcoal,Leptospermum ericoides,Allen et al. 2005,,Y
+Northern,N05/302,Wk13535,218,37,Charcoal,Varied shot lived species,Allen et al. 2005,,Y
+Northern,N05/302,Wk13533,239,37,Charcoal,"Leptospermum ericoides, Cassinia sp.",Allen et al. 2005,,Y
+Northern,N05/302,Wk13537,178,39,Charcoal,Leptospermum ericoides,Allen et al. 2005,,Y
+Northern,N05/315,Wk13538,339,33,Charcoal,Leptospermum ericoides,Allen et al. 2005,,Y
+Northern,N05/315,Wk13531,383,40,Charcoal,Cassinia sp.,Allen et al. 2005,,Y
+Northern,N05/315,Wk13530,356,38,Charcoal,Leptospermum ericoides,Allen et al. 2005,,Y
+Northern,N05/315,Wk13532,233,38,Charcoal,"Pittosporum, Leptospermum ericoides",Allen et al. 2005,,Y
+Central,N26/18,WK1827,430,60,Charcoal,"Melicytus ramiflorus, Myrsine australis, Coprosma sp. Dodonaea viscose",Database,,Y
+Central,N26/18,WK2094,460,50,Charcoal,"Melicytus ramiflorus, Myrsine australis, Coprosma sp. Dodonaea viscose",Database,,Y
+Southern,N36/72,WK2566,134,56,Charcoal,Twigs - long lived species removed,Jacomb 1995,,Y
+Southern,N36/72,WK2567,380,55,Charcoal,Twigs - long lived species removed,Jacomb 1995,,Y
+Southern,N36/72,WK2569,600,45,Charcoal,Twigs - long lived species removed,Jacomb 1995,,Y
+Central,N36/72,WK2570,640,50,Charcoal,Twigs - long lived species removed,Database,,Y
+Central,N36/72,WK2571,114,50,Charcoal,Twigs - long lived species removed,Database,,Y
+Central,N37/12,NZ7655,213,47,Charcoal,"Twigs - Myoporum leatum, Olearia avicenniaefolia, Pseudopanaz arboreum, Metrosideros umbellat, Myrsine australis, Prumnopitys taxifolia, hoheria sp.",Challis 1995,,Y
+Central,N37/12,NZ7656,418,47,Charcoal,"Twigs - Prumnopitys taxifolia, Dacrydium curessinum, Pittisporum sp., Coprosma sp.",Challis 1995,,Y
+Central,N37/12,NZ7661,476,43,Charcoal,Alectryon excelsus dominant; Schefflera digitata minor,Challis 1995,,Y
+Northern,O04/252,NZ7338,330,55,Charcoal,"Cyathea dealbata - 95%, Podocarpus sp. bark - 5%",Database,,Y
+Northern,O04/252,NZ7334,410,55,Charcoal,Leptospermum scoparium,Database,,Y
+Northern,O04/252,NZ7342,360,55,Charcoal,Metrosideros sp.,Database,,Y
+Northern,O04/253,NZ7335,410,55,Charcoal,Beilschmiedia tarairi,Database,,Y
+Northern,O06/170,Wk1087,360,50,Charcoal,"Ackama rosifolia, Metrosideros robusta, Brachyglottis repanda, Carpodetus serratus, Cyathea dealbata",Database,,Y
+Northern,O06/171,Wk1084,570,105,Charcoal,"Myrsine sp., Brachyglottis repanda, Dodonaea viscosa, Ackama rosifolia, Coprosma sp., Olearia sp.",Database,,Y
+Northern,O06/249,Wk1085,460,50,Charcoal,"Knightia excelsa, Elaeocarpus dentatus, Prumnopitys taxifolia, Vitex lucens, Dysoxylum spectabile, Beilschmeidia tarari, Dodonae viscosa, Melicytus ramiflorus, Brachyglottis repanda, Scheffliera digitata, Pseudopanax arboreus",Database,,Y
+Northern,O06/307,NZA0514,156,93,Charcoal,Fern sp.,Trotter 1967a/Fredericksen 1990,,Y
+Northern,O06/307,NZA0538,304,75,Charcoal,Fern sp.,Database/Fredericksen1990,,Y
+Northern,O06/308,NZA0515,90,89,Charcoal,Ackama rosaefolia,Anderson 1991,,Y
+Central,O27/35,NZ7544,595,49,Charcoal,Unspecified (twigs),Database,,Y
+Northern,P05/0,NZ7451,191,64,Charcoal,"Schefflera digitata - 90%, Fern sp - 10%",Database,,Y
+Northern,P05/0,NZ7337,250,50,Charcoal,"Beilschmiedia tawa - 50%, Hebe sp. - 25%, Myrsine australis - 25%",Database,,Y
+Northern,P05/0,NZ7309,400,55,Charcoal,"Cyathea dealbata - 40%, Podocarpus totara - 10%, Metrosideros sp. - 5%",Database,,Y
+Northern,P05/0,NZ7308,495,55,Charcoal,"Knightia excelsa, Dysoxylum spectabile, Beilschmiedia taraire, Coprosma sp., Fern stems",Database,,Y
+Northern,P05/0,NZ7304,280,55,Charcoal,Cyathea dealbata,Database,,Y
+Northern,P05/0,NZ7303,357,65,Charcoal,Cyathea dealbata,Database,,Y
+Northern,P05/0,NZ7247,250,50,Charcoal,"Hebe sp. - 80%, Brachyglotis responda - 20%",Database,,Y
+Northern,P05/0,NZ7450,230,64,Charcoal,Pteridium aquilinium var. esculentum 99% - Vitex lucens 1 %,Database,,Y
+Northern,P05/195,NZ7341,250,50,Charcoal,"Myrsine sp., Olearia sp., carbonised seeds sp.",Database,,Y
+Northern,P05/195,NZ7333,380,60,Charcoal,"Cyathodes fasciculata, Hoheria sp., Dysoxylum spectible, Leptospermum sp.",Database,,Y
+Northern,P05/195,NZ7322,390,55,Charcoal,"Myrsine sp. - 50%, Schefflera digitata - 30%, Coprosma sp. - 10%, unidentified shrub - 10%",Database,,Y
+Northern,P05/195,NZ7312,260,55,Charcoal,"Schefflera digitata - 80%, Dysoxylum spectible - 5%, Beilschmiedia tawa - 10%, Coprosma sp. - 5%",Database,,Y
+Northern,P05/195,NZ7310,300,55,Charcoal,"Schefflera digitata - 60%, Brachyglottis repanda - 15%, Coprosma sp. - 10%, Hebe sp. - 5%, Dysoxylum spectible - 5%",Database,,Y
+Northern,P05/195,NZ7255,250,50,Charcoal,"Hebe sp., Myrsine divaricata - co-dominant",Database,,Y
+Northern,P05/195,NZ7251,430,60,Charcoal,"Schefflera digitata - 60%, Olearia sp., Litsea calicaris, Hebe sp., Vitex lucens, Dysoxylum spectabile, unidentifiable shrub",Database,,Y
+Northern,P05/195,NZ7249,250,50,Charcoal,"Hebe sp. - 75%, Myrsine sp. [probably australis] - 20%, Leptospermum scoparium - 5%",Database,,Y
+Northern,P05/195,NZ6999,270,50,Charcoal,"Geniostoma ligustrifolium - 55%, Broadleaf shrub - 40%, Dacrydium cupressinum/ Podocarpus totara/hallii gp. - 5%",Database,,Y
+Northern,P05/195,NZ6980,225,36,Charcoal,"Hebe sp. - 85%, Brachyglottis repanda - 15%, Coprosma sp., Olearia sp., Hoheria sp.",Database,,Y
+Northern,P05/228,NZ6967,363,37,Charcoal,Elaeocarpus dentatus and/or Elaeocarpus hookerianus,Database,Schmidt (J),Y
+Northern,P05/371,NZ7339,735,60,Charcoal,"Vitex lucens - 1pc, fern [probably Pteridium aquilinium var. esculentum] - 10-20pc",Database,Schmidt (J),Y
+Northern,P05/371,NZ7311,250,50,Charcoal,"Beilschmiedia taraire - 2pc; Myrsine sp. [probably australis] - 1pc; Pseudopanax crasifolius - 5pc; Schefflera digitata - 2pc, Hebe sp. - 3pc; gynomsperm twig - 1pc, Dysoxylum spectabile - 6pc",Database,,Y
+Northern,P05/402,NZ7254,250,50,Charcoal,"Leptospermum scoparium/ Kunzea ericoides - 90%, Cyathea dealbata, Carpodetus serratus, ? gymnosperm",Database,,Y
+Northern,P05/402,NZ7250,330,60,Charcoal,Pteridophyte [probably Leptospermum scoparium)],Database,,Y
+Northern,P05/408,NZ7330,407,60,Charcoal,"Leptospermum sp., unidentified anglosperm",Database,,Y
+Northern,P05/958,Wk20300,242,35,Charcoal,Short lived species,Mallows 2007a,,Y
+Northern,P05/958,Wk20301,160,35,Charcoal,Short lived species,Mallows 2007a,,Y
+Northern,P05/958,Wk20302,212,35,Charcoal,Short lived species,Mallows 2007a,,Y
+Northern,P06/82,Wk3919,220,50,Wood,Nut - Unspecified,Slocombe 2001,,Y
+Northern,P06/82,Wk3920,220,40,Wood,Nut - Unspecified,Slocombe 2001,,Y
+Central,P19/221,NZ6552,480,33,Charcoal,"Pseudopanax sp., Shefflera digitata, Hedycanya arborea minor; Paratropis sp. Macropiper exedsum",Database,,Y
+Central,P19/221,NZ6555,203,32,Charcoal,Pseudopanax sp. Corynocarpus laevigatus; Paratrophis sp.,Database,,Y
+Central,P19/26,NZ6563,263,28,Charcoal,Hebe sp.,Database,,Y
+Central,P30/36,Wk18813,160,37,Charcoal,Short lived species,Habberfield-Short 2006a,,Y
+Central,P30/36,Wk18814,283,33,Charcoal,Short lived species,Habberfield-Short 2006a,,Y
+Central,P30/36,Wk18815,211,31,Charcoal,Short lived species,Habberfield-Short 2006a,,Y
+Central,P30/36,Wk18816,140,39,Charcoal,Short lived species,Habberfield-Short 2006a,,Y
+Central,P30/36,Wk18817,115,37,Charcoal,Short lived species,Habberfield-Short 2006a,,Y
+Central,P30/36,Wk18818,176,42,Charcoal,Short lived species,Habberfield-Short 2006a,,Y
+Central,P30/36,Wk18819,215,39,Charcoal,Short lived species,Habberfield-Short 2006a,,Y
+Central,P30/38,Wk18820,229,35,Charcoal,Short lived species,Habberfield-Short 2006a,,Y
+Central,P30/38,Wk18821,305,30,Charcoal,Short lived species,Habberfield-Short 2006a,,Y
+Central,P30/36,Wk18822,110,35,Charcoal,Short lived species,Habberfield-Short 2006a,,Y
+Central,P30/36,Wk18823,156,33,Charcoal,Short lived species,Habberfield-Short 2006a,,Y
+Central,P30/36,Wk18824,295,43,Charcoal,Short lived species,Habberfield-Short 2006a,,Y
+Central,P30/36,Wk18825,213,33,Charcoal,Short lived species,Habberfield-Short 2006a,,Y
+Central,P30/38,Wk18811,190,38,Charcoal,Short lived species,Habberfield-Short 2006a,,Y
+Central,P30/36,Wk18812,214,32,Charcoal,Short lived species,Habberfield-Short 2006a,,Y
+Central,P30/5,NZ3113,382,59,Charcoal,Coprosma sp. Hebe sp. Podocarpus spicatus,Database,,Y
+Northern,Q07/1284,Wk29070,170,30,Charcoal,Manuka,Johnson and Callaghan 2011,,Y
+Northern,Q07/1284,Wk29071,135,30,Charcoal,Manuka,Johnson and Callaghan 2011,,Y
+Northern,Q08/515,Wk20429,414,36,Charcoal,Short lived species,"Baquie et al., 2007",,Y
+Northern,Q09/237,NZ6551,174,28,Charcoal,Leptospermum sp. [probably ericoides],Database,,Y
+Northern,Q09/261,NZ6550,456,33,Charcoal,"Leptospermum sp., Pseudopanax sp., Coprosma sp.",Database,,Y
+Northern,Q09/261,NZ6584,230,50,Charcoal,Ptenidium esculentum - dominant; Coriaria arborea - minor; Unidentified - trace,Database,,Y
+Northern,Q09/262,NZ6512,106,41,Charcoal,Leptospermum scoparium,Database,,Y
+Northern,Q09/429,NZ7581,339,48,Charcoal,Beilschmiedia tarairi,Database,,Y
+Northern,Q10/32,ANU0761a,100,70,Wood,Unspecified (twigs),Database,,Y
+Central,Q18/87,Wk9189,240,50,Charcoal,Short lived species,Talyor 2001,,Y
+Central,Q19/352,Wk20585,189,39,Charcoal,"Mahoe, Hebe",Hawkins 2008a,,Y
+Central,Q19/353,Wk20586,513,41,Charcoal,"Bracken, Pseudopanax, Horopito, Mahoe, Matai",Hawkins 2008a,,Y
+Central,Q19/354,Wk20587,189,39,Charcoal,Bracken,Hawkins 2008a,,Y
+Central,Q19/357,Wk20589,187,36,Charcoal,Hebe,Hawkins 2008a,,Y
+Central,Q19/354,Wk20588,212,35,Charcoal,Bracken,Hawkins 2008a,,Y
+Central,Q19/359,Wk20590,213,34,Charcoal,Hebe,Hawkins 2008a,,Y
+Central,Q19/359,Wk20591,191,34,Charcoal,"Tutu, Hebe sp. (short lived)",Hawkins 2008a,,Y
+Central,Q19/66,Wk30542,196,35,Charcoal,"Tutu, Hebe, Coprosma (short lived species)",Bader 2011,,Y
+Central,Q22/77,NZ7778,475,46,Charcoal,"Melicytus ramiflorus, Pseudopanax arboreus",Database,,Y
+Central,Q22/77,NZ7779,126,46,Charcoal,"Melicytus ramiflorus, Pseudopanax arboreus",Database,,Y
+Central,Q22/77,NZ7780,481,46,Charcoal,Bracken (Pteridium aquilinum),Database,,Y
+Central,Q22/77,NZ7811,299,29,Charcoal,Melicytus sp. Coprosma sp. Hebe sp.,Database,,Y
+Central,Q22/78,NZ7813,538,34,Wood,"Maitai, Coprosma",Database,,Y
+Central,Q27/36,NZA2182,413,90,Charcoal,"Coprosma sp. Olearia sp. Kunzea ericoides, Dysoxylum spectabile",Database,,Y
+Northern,R09/887,Wk12919,409,33,Charcoal,Unspecified,"Bickler et al., 2003",,Y
+Northern,R10/26,NZ4349,35,66,Charcoal,Pteridium aquilinum var. esculentum,Davidson 1972,,Y
+Northern,R10/38,NZ1167,410,86,Charcoal,Unspecified (twigs),Database,,Y
+Northern,R10/38,NZ1166,510,86,Charcoal,Unspecified (twigs),Database,,Y
+Northern,R10/80,Wk20432,378,36,Charcoal,Short lived,Bickler et al 2008,,Y
+Northern,R11/108,Wk2756,320,50,Charcoal,"Melicytus ramiflorus, Olearia sp., Pittosporum sp. [eugenioides?], Coprosma sp., Pseudopanax arboreus, Auicennia resinifera, Pseudopanax crassifolius",Young 2010,,Y
+Northern,R11/108,Wk2757,360,50,Charcoal,"Olearia sp., Coprosma sp., Leptospermum scoparium, Metrosideros excelsa/Kunzea ericoides, Beilschmeidia tarairi",Young 2010,,Y
+Northern,R11/1188,NZ7019,372,60,Charcoal,Myrsine australis,Baquie and Lawlor 1995/Database,,Y
+Northern,R11/12,NZ8127,391,44,Charcoal,Melicytus ramiflorus,Database,,Y
+Northern,R11/12,NZA0827,233,106,Charcoal,Melicytus ramiflorus,Database,,Y
+Northern,R11/142,NZ5962,411,76,Charcoal,"Coprosma sp. - dominant; Metrosideros sp., Podoarpus sp. - minor",Database,,Y
+Northern,R11/1436,Wk5057,590,50,Charcoal,Cyathean dealbata,Clough and Turner 1998,,Y
+Northern,R11/1519,Wk1126,300,50,Charcoal,"Hebe sp., Myoporum laetum, Griselinia littoralis, Beilschmeidia tawa, Pseudopanax crassifolius, Nestigis sp., Prumnopitys taxifolia, unidentified fern",Frederickson and Visser 1989.,,Y
+Northern,R11/19,NZ4471,305,56,Charcoal,"Coprosma sp. - 80%, Hebe sp. - 20%",Database,,Y
+Northern,R11/19,NZ4472a,288,45,Charcoal,"Coprosma sp. - 46%, Leptospermum sp. [probably scoparium] - 42%, Hebe sp. - 12%",Database,,Y
+Northern,R11/25,NZ5164,305,76,Charcoal,"Myoporum laetum, Melicytus sp. [probably ramiflorus] - codominant",Baquie and Lawlor 1995/Database,,Y
+Northern,R11/25,NZ5165,333,56,Charcoal,Myoporum laetum - dominant; Melicytus sp. [probably ramiflorus] - minor,Baquie and Lawlor 1995/Database,,Y
+Northern,R11/25,NZ5166,207,75,Charcoal,Myoporum laetum - dominant; Melicytus sp. [probably ramiflorus] - subdominant; Hebe sp. - trace,Baquie and Lawlor 1995/Database,,Y
+Northern,R11/25,NZ5167,566,85,Charcoal,Leptospermum sp. [probably scoparium],Baquie and Lawlor 1995/Database,,Y
+Northern,R11/25,NZ5170,352,56,Charcoal,Hebe sp. - dominant; Melicytus sp. [probably ramiflorus] - trace,Baquie and Lawlor 1995/Database,,Y
+Northern,R11/32,NZ1888,727,156,Charcoal,"Dacrydium colensoi, Dysoxylum sp., Nightia excelsa, Beilschmiedia sp., Hedycarya arborea, Paratrophis microphylla, Melicytus ramiflorus, Plagianthus/Hoheria sp., Pteridium aquilium var. esculentum, unidentified hard and soft wood",Baquie and Lawlor 1995/Database,,Y
+Northern,R11/330,Wk19194,419,32,Charcoal,Short lived,Phillips 2006,,Y
+Northern,R11/602,WK2023,320,45,Charcoal,"twigs (Hebe sp. - 95%, unspecified - 5%)",Baquie and Lawlor 1995/Database,,Y
+Northern,R11/602,Wk2024,330,45,Charcoal,"twigs (Hebe sp. - 90%, Pseudopanax sp. - 10%)",Baquie and Lawlor 1995/Database,,Y
+Northern,R11/859,Wk27373,403,30,Charcoal,Coprosmas sp.,Campbell 2011,,Y
+Northern,R11/859,Wk28701,426,35,Charcoal,Mangrove,Campbell 2011,,Y
+Northern,R11/859,Wk28702,246,36,Charcoal,"Tutu, Hebe, coprosma manuka",Campbell 2011,,Y
+Northern,R11/859,Wk28705,377,30,Charcoal,"Bracken, tutu, hebe",Campbell 2011,,Y
+Northern,R11/898,Wk2030,340,45,Charcoal,Cyathea medullaris,Database,,Y
+Northern,R14/55,Wk1899,560,4,Charcoal,"Pennantia corymbosa - dominant; shrub sp., unidentified",Database,,Y
+Northern,R15/255,NZ6272,268,81,Charcoal,"Leptospermum scoparium - dominant; Lophomyrtus obaordata, Coprosma sp., unidentified - minor",Database,,Y
+Northern,R15/255,NZ6273,322,81,Charcoal,"Leptospermum scoparium - dominant; Lophomyrtus obaordata, Coprosma sp., Pseudopanax sp. - minor",Database,,Y
+Northern,R16/10,NZ5237,397,55,Charcoal,"Hebe sp., Coprosma sp., Leptospermum sp., Myoporum laetum , Melicytus sp.; Podocarpus totara/hallii - trace",Database,,Y
+Central,R26/115,NZ2696,75,32,Charcoal,Pteridium esculentum,Database,,Y
+Central,R26/141,NZ7887,556,71,Charcoal,"Kunzea ericoides, Melicytus ramiflorus Coprosma sp.",Database,,Y
+Central,R26/141,NZ7888,588,72,Charcoal,"Schefflera digitata, Carpodetus serratus, Pseudopanax arboreus, Macropiper excelsa, Melicytus ramiflorus, Hoheria sp., Coprosma sp., Hebe sp., Olearia sp.",Database,,Y
+Central,R26/141,NZ7890,556,89,Charcoal,"Macropiper excelsus, Coprosma sp., Pseudopanax arboreus, Olearia sp., Melicytus ramiflorus, Hebe sp., Pittosporum eugenoides",Database,,Y
+Central,R26/141,NZ7891,434,65,Charcoal,"Coprosma sp., Olearis sp.",Database,,Y
+Northern,S14/204,Wk2705,310,150,Charcoal,Beilschmeidia tawa - 6 pieces of twig and 10 pieces of tawa,Database,,Y
+Northern,S14/222,Wk28967,329,30,Wood,Seeds,Hoffman 2011,,Y
+Northern,S14/222,Wk28968,332,30,Wood,Seeds,Hoffman 2011,,Y
+Northern,S15/18,NZ1125,286,83,Wood,Punga,Database,,Y
+Northern,S15/66,Wk26296,223,33,Charcoal,Bracken (short lived),Mallows 2009c,,Y
+Northern,S15/66,Wk26297,154,30,Charcoal,Olearia sp. (short lived),Mallows 2009c,,Y
+Northern,S15/66,Wk26298,347,30,Charcoal,Supplejack (short lived),Mallows 2009c,,Y
+Central,S24/26,NZ6267,456,55,Charcoal,"Shefflera digitata dominant; Vitex lucens, Podocarpus totara group minor",Database,,Y
+Central,S26/3,NZ1057,747,59,Charcoal,Unspecified (twigs),Database,,Y
+Central,S28/9,NZ1644,775,59,Charcoal,Unspecified (twigs),Database,,Y
+Central,S28/9,NZ1645,777,59,Charcoal,Unspecified (twigs),Database,,Y
+Northern,T10/944,Wk25353,455,30,Charcoal,Ngaio and pohutakawa twigs,Furey 2009,,Y
+Northern,T10/944,Wk25354,149,30,Charcoal,"Ngaio, coprosmam, manuka five finger",Furey 2009,,Y
+Northern,T11/326,NZ4950,300,45,Charcoal,"Melicytus ramiflorus, Hebe sp. - codominant; Agathis australis - subdominant; Pittosporum sp. - minor",Database,,Y
+Northern,T11/326,NZ4951,556,61,Charcoal,"Pittosporum sp, Melicytus ramiflorus - codominant; Agathis australis - minor; Pseudopanax colensoi/arboreus group - rare",Database,,Y
+Northern,T11/326,NZ4952,549,560,Charcoal,"Melicytus ramiflorus - dominant; Melicope sp., Hebe sp., Agathis australis, Podocarpus totara/hallii - codominant; unidentified dicot, Metrosideros sp. - minor",Database,,Y
+Northern,T11/326,NZ4953,700,60,Charcoal,"Podocarpus totara/hallii - dominant; Melicope sp. - subdominant; Metrosideros sp., Agathis australis, Melicytus ramiflorus, Pseudopanax colensoi/arboreus, fern, unidentified dicot - minor",Database,,Y
+Northern,T12/1243,Wk22531,273,33,Charcoal,Leptospermum scoparium,Mallows 2009,,Y
+Northern,T12/192,NZ4179,277,40,Charcoal,Bracken,Best 1980/Database,Schmidt (J),Y
+Northern,T12/299,Wk3038,160,45,Charcoal,"Leptospermum scoparium, Hebe sp., Pseudopanax arboreus, Dracophyllum sp.",Allen et al. 1993,,Y
+Northern,T12/340,Wk2641,110,45,Charcoal,Leptospermum ericoides - 10 pc; Hebe sp. - 5 pc; Quintinia serrata - 2 pc; Pseudopanax arboreus - 1 pc; Melicytus ramiflorus - 1 pc; Coprosma sp. - 1 pc; Olearia sp. - 1 pc,Database,,Y
+Northern,T12/345,Wk2950,290,50,Charcoal,"Dodonaea viscosa, Hebe sp., Leptospermum scoparium, Pseudopanax arboreus, Pseudopanax crassifolius, Lophomurtus bullata, Olearia sp., unidentified shrub",Allen et al. 1993,,Y
+Northern,T12/345,Wk2951,290,90,Charcoal,"Pseudopanax arboreus, Pittosporum sp., Dracophyllum sp., unidentified shrub",Allen et al. 1993,,Y
+Northern,T12/347,Wk2852,350,60,Charcoal,Hebe sp. - 12 pc; Leptospermum scoparium - 7 pc; Pseudopanax arboreus - 5 pc; Pittosporum sp. - 4 pc; unidentified shrub,Allen et al. 1993,,Y
+Northern,T12/347,Wk2853,70,54,Charcoal,Olearia sp. - 9 pc; Avicennia resinifera - 5 pc; Leptospermum scoparium - 5 pc; Hoheria sp. - 3 pc; Dodonaea viscosa - 1 pc; unidentified shrub - 1 pc,Allen et al. 1993,,Y
+Northern,T12/882,Wk2640,110,55,Charcoal,"bark of Leptospermum scoparium, Myrsine australis, Hebe sp.",Database,,Y
+Central,T28/47,NZ3114,337,79,Charcoal,Coprosma sp. Hebe sp.,Database,,Y
+Central,T28/47,NZ3115,531,58,Charcoal,"Coprosmas sp. Dominant, Podocarpus totara minor",Database,,Y
+Northern,U14/157,Wk31086,220,31,Charcoal,"tutu, mapou, puriri",Furey 2011a,,Y
+Northern,U14/177,NZ6304,89,54,Charcoal,Melicytus ramiflorus - dominant; Hebe sp. - minor; Leptospermum sp. - minor; unidentified - minor,Database,,Y
+Northern,U14/1810,Wk14091,222,27,Charcoal,Tutu,Gumbley 2004,,Y
+Northern,U14/1810,Wk14092,195,30,Charcoal,Short lived species,Gumbley 2004,,Y
+Northern,U14/1945,Wk13117,355,35,Charcoal,Mahoe,Campbell and Paihana 2003,,Y
+Northern,U14/2039,Wk17778,616,35,Charcoal,"54% Coriaria arborea, 23% Hebe, 23% Coprosma",Hooker 2005a,,Y
+Northern,U14/2039,Wk17779,639,35,Charcoal,"54% Coriaria arborea, 23% Hebe, 23% Coprosma",Hooker 2005a,,Y
+Northern,U14/2897,Wk17613,138,39,Charcoal,Manuka twig,Felgate 2006a,,Y
+Northern,U14/3081,Wk19481,296,31,Charcoal,Bracken root and Tutu,Gumbley 2007,,Y
+Northern,U14/3218,Wk16952,447,32,Charcoal,Mahoe and Five finger,Campbell 2005,,Y
+Northern,U14/712,Wk25349,283,30,Charcoal,"Manuka, Olearis sp, Akeake",Furey 2011,,Y
+Northern,U15/501,Wk19541,452,34,Charcoal,Ponga,Moore 2006a,,Y
+Northern,U15/502,Wk19542,412,36,Charcoal,Bracken,Moore 2006a,,Y
+Northern,U15/9,Wk16047,266,49,Charcoal,Short lived species,Campbell and Phillips 2005,,Y
+Northern,U15/9,Wk16049,242,34,Charcoal,Short lived species,Campbell and Phillips 2005,,Y
+Northern,U15/9,Wk16048,228,35,Charcoal,Short lived species,Campbell and Phillips 2005,,Y
+Northern,U15/9,Wk16046,160,46,Charcoal,Short lived species,Campbell and Phillips 2005,,Y
+Northern,U16/83,NZ1129,207,43,Wood,Leptospermum sp.,Database,,Y
+Central,U26/14,NZ4722,221,55,Charcoal,Unspecified (twigs),Database,,Y
+Northern,V15/5,Wk19096,423,36,Charcoal,Tree fern,Hooker 2006,,Y
+Northern,V15/80,NZ6619,190,39,Wood,Pteridium esculentum,Database,,Y
+Central,V21/168,NZA1351,414,63,Charcoal,"Myrsine australis, Hebe sp., Alectryon excelsa",Database,,Y
+Central,V21/45,Wk1962,220,50,Charcoal,"Hoheria/Plagianthus sp., Hebe sp., Coprosma sp., Melicytus ramiflorus, Pseudopanax arboreus, unidentified scrub sp",Database,,Y
+Central,V21/45,Wk1963,250,0,Charcoal,"Pseudopanax crassifolius, Schefflera digitata, Corynocarpus laevigata",Database,,Y
+Central,V21/45,Wk1964,250,0,Charcoal,"Pteridium aquilinium - 80%, Scheffliera digitata - 20%",Database,,Y
+Central,V22/119,Beta51319,360,70,Charcoal,"Hebe sp., Pittosporum sp., Pseudopanax crassifolis, unidentified conifer, Podocarpus spicatus, Schleffera digitata, Myoporum laetum, unidentified shrub",Database,,Y
+Central,W21/1,NZ1912,118,83,Wood,Pseudopanax sp.,Database,,Y
+Northern,Y17/100,NZ6562,564,51,Charcoal,tree fern with some Pteriduem esculentum,Database,,Y
+Central,Y17/178,NZ7392,347,66,Charcoal,gymnosperm,Database,Schmidt (J),Y
+Central,Y17/459,NZ7399,607,66,Charcoal,Pseudopanax arboreus,Database,,Y
+Northern,Z17/211,Wk1147,360,125,Charcoal,Unspecified (twigs),Database,Schmidt (G),Y
+Central,Z17/221,NZ7398,213,64,Charcoal,"Leptospermum ericoides, Beilschmiedia tawa, Coprosma sp., Hebe sp., Cassinia sp., fern stem",Database,,Y
+Northern,Z17/221,NZ7394,134,64,Charcoal,"Beilschmiedia tawa, Hebe sp., Myrsine australis",Database,,Y
+Northern,Z17/311,Wk24846,361,35,Charcoal,Short lived species,Walter et al 2010,,Y
+Northern,Z17/311,Wk24847,389,36,Charcoal,Short lived species,Walter et al 2010,,Y
+Central,Q07/nn,Wk24674,275,35,Charcoal,"Mahoe, wineberry",Gibb 2011,,Y
+Central,Q07/nn,Wk24675,179,30,Charcoal,Bracken,Gibb 2011,,Y
+Central,Q07/nn,Wk24676,354,31,Charcoal,"Five finger, Coprosma",Gibb 2011,,Y
+Central,Q07/nn,Wk24677,261,35,Charcoal,"Five finger, Tutu, mahoe",Gibb 2011,,Y
+Central,Q07/nn,Wk24678,549,35,Charcoal,"Coprosma, mahoe, pate",Gibb 2011,,Y
+Northern,P05/854,Wk 12418,454,43,Charcoal,"Manuka, Rangiora, 5 finger and Coprosma sp.",Best 2003,,Y
+Northern,P05/854,Wk 12419,213,51,Charcoal,"Hebe sp., Coprosma, 5-finger",Best 2003,,Y
