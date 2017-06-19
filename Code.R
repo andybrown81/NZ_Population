@@ -102,7 +102,7 @@ lines(logisticFit_N,col="red",lty=2)
 logMod_northern <- modelTest(x=caldates_northern,bins=bins_N,errors=northern_dates$Error,predgrid=logisticFit_N,runm=50,timeRange=c(800,0),model="custom",calCurves="shcal13",nsim=5000,ncores=2)
 
 ### Plot regional models
-par(mfrow = c(2, 1))
+par(mfrow = c(1, 2)
 plot(expMod_northern, ylim = c(0.0, 0.5)) 
 plot(logMod_northern, ylim = c(0.0, 0.5))
 
@@ -131,8 +131,8 @@ lines(logisticFit_C, col = "red", lty = 2)
 logMod_central <- modelTest(x=caldates_central, bins=bins_C, errors=central_dates$Error, predgrid=logisticFit_C, runm=50, timeRange=c(800,0), model="custom", calCurves="shcal13", nsim=5000,ncores=2)
 
 ### Plot regional models
-plot(expMod_central, ylim = c(0.0,0.2))
-plot(logMod_central, ylim = c(0.0,0.2))
+plot(expMod_central, ylim = c(0.0,0.25))
+plot(logMod_central, ylim = c(0.0,0.25))
 
 ### Get global p values
 expMod_central$pval
@@ -151,7 +151,7 @@ expMod_southern <- modelTest(x=caldates_southern,bins=bins_S,errors=southern_dat
 grd_S <- spd.s$grid
 x <- grd_S$calBP
 y <- grd_S$PrDens
-log.ss <- nls(y~SSlogis(x, Asym, xmid, scale),control=nls.control(maxiter=500),start=list(Asym=0.2,xmid=400,scale=-100))
+log.ss <- nls(y~SSlogis(x, Asym, xmid, scale),control=nls.control(maxiter=200),start=list(Asym=0.5,xmid=400,scale=-100))
 logisticFit_S <- data.frame(calBP=x,PrDens=SSlogis(x,coefficients(log.ss)[1],coefficients(log.ss)[2], coefficients(log.ss)[3]))
 
 ### Check fit of model to observed data and run model
@@ -180,12 +180,12 @@ plot(expMod_northern, ylim = c(0.0,0.5))
 plot(logMod_northern, ylim = c(0.0,0.5))
 lines(logisticFit_N, col = "red", lty = 2)
 
-plot(expMod_central, ylim = c(0.0,0.3))
-plot(logMod_central, ylim = c(0.0,0.3))
+plot(expMod_central, ylim = c(0.0,0.25))
+plot(logMod_central, ylim = c(0.0,0.25))
 lines(logisticFit_C, col = "red", lty = 2)
 
-plot(expMod_southern, ylim = c(0,0.4))
-plot(logMod, ylim = c(0,0.4))
+plot(expMod_southern, ylim = c(0,0.2))
+plot(logMod_southern, ylim = c(0,0.2))
 lines(logisticFit_S,col="red",lty=2)
 
 
@@ -194,6 +194,9 @@ lines(logisticFit_S,col="red",lty=2)
 ###  Permutation Tests	###
 ###########################
 
+### Calibrate NZ dates
+caldates <- calibrate(ages=nzdates$CRA,errors=nzdates$Error,calCurves="shcal13")
+    
 ### Run permutations
 Perm <- permTest(x=caldates, marks = nzdates$Region, timeRange = c(800,0), nsim=5000, runm=50)
 
