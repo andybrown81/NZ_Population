@@ -29,15 +29,15 @@ central_dates <- subset(nzdates, Region=="Central")
 southern_dates <- subset(nzdates, Region=="Southern")
 
 ### Check region lengths
-length(northern_dates)
-length(central_dates)
-length(southern_dates)
+length(unique(northern_dates$Lab.No)
+length(unique(central_dates$Lab.No)
+length(unique(southern_dates$Lab.No)
 
 
 
-#################################
-###   Calibrate and Binning   ###
-#################################
+###################################
+###   Calibration and Binning   ###
+###################################
 
 
 ### Calibrate dates using southern hemisphere curve
@@ -45,7 +45,7 @@ caldates_northern <- calibrate(ages=northern_dates$CRA,errors=northern_dates$Err
 caldates_central <- calibrate(ages=central_dates$CRA,errors=central_dates$Error,calCurves="shcal13")
 caldates_southern <- calibrate(ages=southern_dates$CRA,errors=southern_dates$Error,calCurves="shcal13")
 
-### Make bins (100year cut-off)
+### Make bins (100 year cut-off)
 bins_N <- binPrep(sites=northern_dates$Site.Number,ages=northern_dates$CRA,h=100)
 bins_C <- binPrep(sites=central_dates$Site.Number,ages=central_dates$CRA,h=100)
 bins_S <- binPrep(sites=southern_dates$Site.Number,ages=southern_dates$CRA,h=100)
@@ -64,7 +64,6 @@ length(SouthernBins)
 ###   Create SPDs   ###
 #######################
  
-
 
 ### Make regional SPDs using 50 year rolling mean (Northern, Central, Southern in decending order)
 spd.n <- spd(x=caldates_northern,bins=bins_N,timeRange=c(800,0),runm=50)
@@ -106,7 +105,7 @@ par(mfrow = c(1, 2)
 plot(expMod_northern, ylim = c(0.0, 0.5)) 
 plot(logMod_northern, ylim = c(0.0, 0.5))
 
-### Get global p values
+### Check global p values
 expMod_northern$pval
 logMod_northern$pval
 
@@ -122,7 +121,7 @@ expMod_central <- modelTest(x=caldates_central,bins=bins_C,errors=central_dates$
 grd_C <- spd.c$grid
 x <- grd_C$calBP
 y <- grd_C$PrDens
-log.ss <- nls(y~SSlogis(x, Asym, xmid, scale),control=nls.control(maxiter=200),start=list(Asym=0.8,xmid=400,scale=-100))
+log.ss <- nls(y~SSlogis(x, Asym, xmid, scale),control=nls.control(maxiter=200),start=list(Asym=0.2,xmid=400,scale=-100))
 logisticFit_C <- data.frame(calBP=x,PrDens=SSlogis(x,coefficients(log.ss)[1],coefficients(log.ss)[2],coefficients(log.ss)[3]))
 
 ### Check fit of model to observed data and run model
@@ -134,7 +133,7 @@ logMod_central <- modelTest(x=caldates_central, bins=bins_C, errors=central_date
 plot(expMod_central, ylim = c(0.0,0.25))
 plot(logMod_central, ylim = c(0.0,0.25))
 
-### Get global p values
+### Check global p values
 expMod_central$pval
 logMod_central$pval
 
@@ -151,7 +150,7 @@ expMod_southern <- modelTest(x=caldates_southern,bins=bins_S,errors=southern_dat
 grd_S <- spd.s$grid
 x <- grd_S$calBP
 y <- grd_S$PrDens
-log.ss <- nls(y~SSlogis(x, Asym, xmid, scale),control=nls.control(maxiter=200),start=list(Asym=0.5,xmid=400,scale=-100))
+log.ss <- nls(y~SSlogis(x, Asym, xmid, scale),control=nls.control(maxiter=200),start=list(Asym=0.2,xmid=400,scale=-100))
 logisticFit_S <- data.frame(calBP=x,PrDens=SSlogis(x,coefficients(log.ss)[1],coefficients(log.ss)[2], coefficients(log.ss)[3]))
 
 ### Check fit of model to observed data and run model
@@ -163,7 +162,7 @@ logMod_southern <- modelTest(x=caldates_southern,bins=bins_S,errors=southern_dat
 plot(expMod_southern, ylim = c(0,0.25))
 plot(logMod_southern, ylim = c(0,0.25))
 
-### Get global p values
+### Check global p values
 expMod_southern$pval 
 logMod_southern$pval
 
@@ -188,7 +187,7 @@ plot(expMod_southern, ylim = c(0,0.2))
 plot(logMod_southern, ylim = c(0,0.2))
 lines(logisticFit_S,col="red",lty=2)
 
-
+Pvalues <- matrix( c(expMod_northern$pval, logMod_northern$pval, expMod_central$pval, logMod_central$pval, expMod_southern$pval, logMod_southern$pval), nrow=6, ncol=1, byrow=FALSE)
 
 ###########################
 ###  Permutation Tests	###
@@ -202,10 +201,12 @@ Perm <- permTest(x=caldates, marks = nzdates$Region, timeRange = c(800,0), nsim=
 
 ### Plot results for each region
 par(mfrow = c(1, 3))
-plot.SpdPermTest(Perm, focalm='1')
 plot.SpdPermTest(Perm, focalm='2')
+plot.SpdPermTest(Perm, focalm='1')
 plot.SpdPermTest(Perm, focalm='3')
 
+### Get global p values (Note 1 = Central, 2 = Northern, 3 = Southern)
+Perm$pValueList
 
 
 
