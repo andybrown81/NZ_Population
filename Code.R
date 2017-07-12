@@ -3,7 +3,7 @@
 ########################################
 
 ### Set working directory   
-setwd("\\\\bournemouth.ac.uk/data/staff/home/aabrown/Profile/Desktop"
+setwd("")
 
 ### Install and load packages 
 # R version: 3.4.0
@@ -28,7 +28,7 @@ northern_dates <- subset(nzdates, Region=="Northern")
 central_dates <- subset(nzdates, Region=="Central")
 southern_dates <- subset(nzdates, Region=="Southern")
 
-### Check region lengths
+### Check region lengths (ND - 146 | CD - 80 | SD - 102)
 length(unique(northern_dates$Lab.No)
 length(unique(central_dates$Lab.No)
 length(unique(southern_dates$Lab.No)
@@ -50,13 +50,10 @@ bins_N <- binPrep(sites=northern_dates$Site.Number,ages=northern_dates$CRA,h=100
 bins_C <- binPrep(sites=central_dates$Site.Number,ages=central_dates$CRA,h=100)
 bins_S <- binPrep(sites=southern_dates$Site.Number,ages=southern_dates$CRA,h=100)
 
-### Check number of unique bins (Northern - 102 | Central - 55 | Southern - 58)
-NorthernBins <- unique(bins_N)
-length(NorthernBins)
-CentralBins <- unique(bins_C)
-length(CentralBins)
-SouthernBins <- unique(bins_S)
-length(SouthernBins)
+### Check number of unique bins (Northern - 102 | Central - 55 | Southern - 57)
+length(unique(bins_N))
+length(unique(bins_C))
+length(unique(bins_S))
 
 
 
