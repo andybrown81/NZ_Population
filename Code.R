@@ -29,9 +29,9 @@ central_dates <- subset(nzdates, Region=="Central")
 southern_dates <- subset(nzdates, Region=="Southern")
 
 ### Check region lengths (ND - 146 | CD - 80 | SD - 102)
-length(unique(northern_dates$Lab.No)
-length(unique(central_dates$Lab.No)
-length(unique(southern_dates$Lab.No)
+length(unique(northern_dates$Lab.No))
+length(unique(central_dates$Lab.No))
+length(unique(southern_dates$Lab.No))
 
 
 
