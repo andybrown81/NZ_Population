@@ -17,7 +17,7 @@ library(rcarbon)
 
 
 ### Read in 14C dates        
-nzdates <- read.csv("NZall.csv")
+nzdates <- read.csv("SPDdata.csv")
 
 ### Subset dates based on CRA. Pre 800 CRA is likely to be an 'old wood' date
 nzdates <- subset(nzdates,CRA>0)
@@ -28,7 +28,7 @@ northern_dates <- subset(nzdates, Region=="Northern")
 central_dates <- subset(nzdates, Region=="Central")
 southern_dates <- subset(nzdates, Region=="Southern")
 
-### Check region lengths (ND - 146 | CD - 80 | SD - 102)
+### Check region lengths (ND - 154 | CD - 72 | SD - 89)
 length(unique(northern_dates$Lab.No))
 length(unique(central_dates$Lab.No))
 length(unique(southern_dates$Lab.No))
@@ -50,7 +50,7 @@ bins_N <- binPrep(sites=northern_dates$Site.Number,ages=northern_dates$CRA,h=100
 bins_C <- binPrep(sites=central_dates$Site.Number,ages=central_dates$CRA,h=100)
 bins_S <- binPrep(sites=southern_dates$Site.Number,ages=southern_dates$CRA,h=100)
 
-### Check number of unique bins (Northern - 102 | Central - 55 | Southern - 57)
+### Check number of unique bins (Northern - 110 | Central - 46 | Southern - 54)
 length(unique(bins_N))
 length(unique(bins_C))
 length(unique(bins_S))
