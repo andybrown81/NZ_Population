@@ -100,7 +100,7 @@ set.seed(12345)
 logMod_northern <- modelTest(x=caldates_northern,bins=bins_N,errors=northern_dates$Error,predgrid=logisticFit_N,runm=50,timeRange=c(800,0),model="custom",calCurves="shcal13",nsim=5000,ncores=2)
 
 ### Plot regional models
-par(mfrow = c(1, 2)
+par(mfrow = c(1, 2))
 plot(expMod_northern, ylim = c(0.0, 0.5)) 
 plot(logMod_northern, ylim = c(0.0, 0.5))
 
