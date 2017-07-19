@@ -9,7 +9,7 @@ setwd("")
 # R version: 3.4.0
 install.packages("doParallel")
 install.packages("devtools")
-install_github("ahb108/rcarbon")
+install_github("ahb108/rcarbon@851935d”")
 
 library(doParallel)
 library(devtools)
@@ -81,6 +81,7 @@ plot(spd.s)
 
 
 ### Exponential Model Test (5000 simulations)
+set.seed(12345)
 expMod_northern <- modelTest(x=caldates_northern,bins=bins_N,errors=northern_dates$Error,runm=50,timeRange=c(800,0),model="explog",calCurves="shcal13",nsim=5000,ncores=2)
 
 ### Logistic Model (5000 simulations)
@@ -95,6 +96,7 @@ plot(spd.n)
 lines(logisticFit_N,col="red",lty=2)
 
 ### Run model
+set.seed(12345)
 logMod_northern <- modelTest(x=caldates_northern,bins=bins_N,errors=northern_dates$Error,predgrid=logisticFit_N,runm=50,timeRange=c(800,0),model="custom",calCurves="shcal13",nsim=5000,ncores=2)
 
 ### Plot regional models
@@ -112,6 +114,7 @@ logMod_northern$pval
 
 
 ### Exponential Model (5000 simulations)
+set.seed(12345)
 expMod_central <- modelTest(x=caldates_central,bins=bins_C,errors=central_dates$Error,runm=50,timeRange=c(800,0),model="explog",calCurves="shcal13",nsim=5000,ncores=2)
 
 ### Logistic Model
@@ -121,9 +124,12 @@ y <- grd_C$PrDens
 log.ss <- nls(y~SSlogis(x, Asym, xmid, scale),control=nls.control(maxiter=200),start=list(Asym=0.2,xmid=400,scale=-100))
 logisticFit_C <- data.frame(calBP=x,PrDens=SSlogis(x,coefficients(log.ss)[1],coefficients(log.ss)[2],coefficients(log.ss)[3]))
 
-### Check fit of model to observed data and run model
+### Check fit of model to observed data 
 plot(spd.c)
 lines(logisticFit_C, col = "red", lty = 2)
+    
+### Run model
+set.seed(12345)
 logMod_central <- modelTest(x=caldates_central, bins=bins_C, errors=central_dates$Error, predgrid=logisticFit_C, runm=50, timeRange=c(800,0), model="custom", calCurves="shcal13", nsim=5000,ncores=2)
 
 ### Plot regional models
@@ -150,9 +156,12 @@ y <- grd_S$PrDens
 log.ss <- nls(y~SSlogis(x, Asym, xmid, scale),control=nls.control(maxiter=200),start=list(Asym=0.2,xmid=400,scale=-100))
 logisticFit_S <- data.frame(calBP=x,PrDens=SSlogis(x,coefficients(log.ss)[1],coefficients(log.ss)[2], coefficients(log.ss)[3]))
 
-### Check fit of model to observed data and run model
+### Check fit of model to observed data 
 plot(spd.s)
 lines(logisticFit_S,col="red",lty=2)
+    
+### Run model
+set.seed(12345)
 logMod_southern <- modelTest(x=caldates_southern,bins=bins_S,errors=southern_dates$Error,predgrid=logisticFit_S,runm=50,timeRange=c(800,0),model="custom",calCurves="shcal13",nsim=5000,ncores=2)
 
 ### Plot regional models
