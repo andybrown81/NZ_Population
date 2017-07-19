@@ -147,6 +147,7 @@ logMod_central$pval
 
 
 ### Exponential Model (5000 simulations)
+set.seed(12345)
 expMod_southern <- modelTest(x=caldates_southern,bins=bins_S,errors=southern_dates$Error,runm=50,timeRange=c(800,0),model="explog",calCurves="shcal13",nsim=5000,ncores=2)   
 
 ### Logistic Model
@@ -203,6 +204,7 @@ Pvalues <- matrix( c(expMod_northern$pval, logMod_northern$pval, expMod_central$
 caldates <- calibrate(ages=nzdates$CRA,errors=nzdates$Error,calCurves="shcal13")
     
 ### Run permutations
+set.seed(12345)
 Perm <- permTest(x=caldates, marks = nzdates$Region, timeRange = c(800,0), nsim=5000, runm=50)
 
 ### Plot results for each region
