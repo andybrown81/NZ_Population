@@ -2,19 +2,6 @@
 ###     Load Data and Packages       ###
 ########################################
 
-### Set working directory   
-setwd("")
-
-### Install and load packages 
-# R version: 3.4.0
-install.packages("doParallel")
-install.packages("devtools")
-install.packages("zoo")
-install.packages("sp")
-install.packages("R.utils")
-install.packages("rworldmap")
-install.packages("rcarbon")
-
 library(doParallel)
 library(devtools)
 library(zoo)
@@ -22,6 +9,8 @@ library(sp)
 library(R.utils)
 library(rworldmap)
 library(rcarbon)
+
+setInternet2(TRUE) #I would remove this line
 
 
 ### Read in 14C dates        
@@ -41,7 +30,6 @@ length(unique(northern_dates$LabID))
 length(unique(central_dates$LabID))
 length(unique(southern_dates$LabID))
 
-setInternet2(TRUE)
 
 ###################################
 ###   Calibration and Binning   ###
@@ -218,7 +206,7 @@ Pvalues <- matrix( c(expMod_northern$pval, logMod_northern$pval, expMod_central$
 ###########################
 
 ### Calibrate NZ dates
-caldates <- calibrate(ages=nzdates$CRA,errors=nzdates$Error,calCurves="shcal13")
+caldates <- calibrate(nzdates$C14Age,errors=nzdates$C14SD,calCurves="shcal13",normalised=FALSE)
 
 ### Run permutations
 set.seed(12345)
@@ -226,9 +214,9 @@ Perm <- permTest(x=caldates, marks = nzdates$Region, timeRange = c(800,0), nsim=
 
 ### Plot results for each region
 par(mfrow = c(1, 3))
-plot.SpdPermTest(Perm, focalm='2')
-plot.SpdPermTest(Perm, focalm='1')
-plot.SpdPermTest(Perm, focalm='3')
+plot(Perm, focalm='2')
+plot(Perm, focalm='1')
+plot(Perm, focalm='3')
 
 ### Get global p values (Note 1 = Central, 2 = Northern, 3 = Southern)
 Perm$pValueList
@@ -268,7 +256,7 @@ w <- spweights(d,h=50)
 ###    Execute SPpermTest    ###
 ################################
 
-breaks <- seq(700,100,-300) #500 year blocks
+breaks <- seq(700,100,-150) #500 year blocks
 timeRange <- c(700,100) #set the timerange of analysis in calBP, older date first
 
 res <- SPpermTest(calDates=caldates,bins=bins,timeRange=timeRange,
@@ -286,6 +274,32 @@ xrange <- bbox(sites)[1,]
 yrange <- bbox(sites)[2,]
 
 
+
+par(mfrow=c(1,4))
+
+for (i in 1:3)
+{
+par(mar=c(0.1,0.1,0,0.5))
+plot(base,col="antiquewhite3",border="antiquewhite3",xlim=xrange,ylim=yrange)
+plot(res,index=i,add=TRUE,option="raw",breakRange=c(-0.01,0.01),breakLength=9,baseSize=1) 
+legend("topleft",legend=c(NA),border=NA,title=as.roman(i),cex=2,bty="n")
+}
+plot(res,option="rawlegend",breakRange=c(-0.01,0.01),breakLength=9,rd=3,legSize=1.6)
+
+
+
+par(mfrow=c(1,4))
+
+
+for (i in 1:3)
+{
+par(mar=c(0.1,0.1,0,0.5))	
+plot(base,col="antiquewhite3",border="antiquewhite3",xlim=xrange,ylim=yrange)
+plot(res,index=i,add=TRUE,option="test",baseSize=1)
+legend("topleft",legend=c(NA),border=NA,title=as.roman(i),cex=2,bty="n")
+}
+
+plot(res,option="testlegend",legSize=2)
 
 
 
