@@ -78,6 +78,18 @@ spd.c <- spd(x=caldates_central,bins=bins_C,timeRange=c(800,0),runm=50)
 spd.s <- spd(x=caldates_southern,bins=bins_S,timeRange=c(800,0),runm=50)
 spd.nz <- spd(x=caldates,bins=bins,timeRange=c(800,0),runm=50)
 
+## (NEW) Block SPD and Geom Growth Rate
+source("./extra_code.R")
+spd.n.blk=spd2gg(spd.n,breaks=seq(750,150,-100))
+spd.c.blk=spd2gg(spd.c,breaks=seq(750,150,-100))
+spd.s.blk=spd2gg(spd.s,breaks=seq(750,150,-100))
+
+par(mfrow=c(1,3))
+plot.spd2gg(spd.n.blk,main="north")
+plot.spd2gg(spd.c.blk,main="central")
+plot.spd2gg(spd.s.blk,main="south")
+
+
 ### Plot SPDs
 par(mfrow = c(2, 2))
 plot(spd.n)
@@ -260,8 +272,8 @@ w <- spweights(d,h=100)
 ### Compute SPD and geometric growth rate ###
 
 breaksize=100
-nBreaks=length(breaks)-1
 breaks <- seq(750,150,-100) 
+nBreaks=length(breaks)-1
 timeRange <- c(750,150) 
 
 spd=spd(x=caldates,timeRange=timeRange,bins=bins,datenormalised=FALSE,spdnormalised=TRUE)
@@ -283,8 +295,12 @@ for (i in 1:c(nBreaks-1))
 ###    Execute SPpermTest    ###
 
 
-res <- SPpermTest(calDates=caldates,bins=bins,timeRange=timeRange,locations=sites,permute="locations",nsim=1000,
-                  breaks=breaks,spatialweights=w,ncores=3,verbose=FALSE)
+res <- SPpermTest(calDates=caldates,bins=bins,timeRange=timeRange,locations=sites,permute="locations",nsim=1000,breaks=breaks,spatialweights=w,ncores=1,verbose=FALSE,raw=TRUE)
+
+###(NEW) Check local dynamics)
+searchSSPD(res)
+
+
 
 
 ###   Plot Results             
