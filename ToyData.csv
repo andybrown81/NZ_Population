@@ -1,0 +1,5 @@
+SiteID,LabID,C14Age,C14SD,Region
+S1,RC_1,550,30,One
+S1,RC_2,590,40,One
+S2,RC_3,350,30,Two
+S3,RC_4,600,40,Two
