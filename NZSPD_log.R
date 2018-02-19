@@ -60,6 +60,12 @@ bins_C <- binPrep(sites=central_dates$SiteID,ages=central_dates$C14Age,h=100)
 bins_S <- binPrep(sites=southern_dates$SiteID,ages=southern_dates$C14Age,h=100)
 bins <- binPrep(sites=nzdates$SiteID,ages=nzdates$C14Age,h=100)
 
+### Bin Sensitivity Analysis ###
+# binsense(x=caldates,y=nzdates,sitecol="SiteID",agecol="C14Age",timeRange=c(800,0),runm=50,h=seq(10,200,10))
+# binsense(x=caldates_northern,y=northern_dates,sitecol="SiteID",agecol="C14Age",timeRange=c(800,0),runm=50,h=seq(10,200,10))
+# binsense(x=caldates_southern,y=southern_dates,sitecol="SiteID",agecol="C14Age",timeRange=c(800,0),runm=50,h=seq(10,200,10))
+# binsense(x=caldates_central,y=central_dates,sitecol="SiteID",agecol="C14Age",timeRange=c(800,0),runm=50,h=seq(10,200,10))
+
 ### Check number of unique bins (Northern - 112 | Central - 47 | Southern - 55)
 length(unique(bins_N))
 length(unique(bins_C))
