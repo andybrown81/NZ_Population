@@ -1,4 +1,4 @@
-Region,Site Name,SiteID,Assemblage,LabID,C14Age,C14SD,Delta 13,Material,MaterialID,Source,NZTM N,NZTM E,Longititude,Latitude
+Region,Site Name,SiteID,Assemblage,LabID,C14Age,C14SD,Delta 13,Material,MaterialID,Source,NZTM N,NZTM E,Longitude,Latitude
 Southern,"Mary Island Burial, Hauroko",C45/1,"Burial cave, sample from a manuka stake place in the ground to support a trussed body on a platform",NZ0883,306,41,-25,Wood,Leptospermum scoparium,NZRD,4892101,1160719,167.3282496,-45.98371269
 Southern,Lee Island,D41/7,"Square D5, Layer 2, Yellow grey silt containing some charcoal",NZ6733,281,51,-24.43,Charcoal,"Leptospermum scoparium - dominant; Coprosma sp. - subdominant; Phyllocladus alpinus, Podocarpus totara, P. hallii, Nothofagus solandri var - minor; fern",Anderson and McGovern-Wilson 1991,5000252,1195832,167.8687596,-45.03578371
 Southern,"Sealers Bay, Codfish Island",D48/21,SB4 - TPD - Layer 2,Wk21442,464,36,-24.8,Charcoal,Hebe salicifolia 7 - Pseudopanax colensoi 7 - Leptospermum scoparium 6 - Fuchsia excorticata 3 - Griselina littoralis 3 - Myrsine australis 2,Smith and Anderson 2008,4807072,1190900,167.6419514,-46.76430015
