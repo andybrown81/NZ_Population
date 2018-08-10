@@ -38,7 +38,7 @@ northern_dates <- subset(nzdates, Region=="Northern")
 central_dates <- subset(nzdates, Region=="Central")
 southern_dates <- subset(nzdates, Region=="Southern")
 
-### Check region lengths (ND - 153 | CD - 73 | SD - 89)
+### Check region lengths (ND - 165 | CD - 63 | SD - 85)
 length(unique(northern_dates$LabID))
 length(unique(central_dates$LabID))
 length(unique(southern_dates$LabID))
@@ -66,7 +66,7 @@ bins <- binPrep(sites=nzdates$SiteID,ages=nzdates$C14Age,h=100)
 # binsense(x=caldates_southern,y=southern_dates,sitecol="SiteID",agecol="C14Age",timeRange=c(800,0),runm=50,h=seq(10,200,10))
 # binsense(x=caldates_central,y=central_dates,sitecol="SiteID",agecol="C14Age",timeRange=c(800,0),runm=50,h=seq(10,200,10))
 
-### Check number of unique bins (Northern - 112 | Central - 47 | Southern - 55)
+### Check number of unique bins (Northern - 118 | Central - 42 | Southern - 52)
 length(unique(bins_N))
 length(unique(bins_C))
 length(unique(bins_S))
@@ -84,8 +84,8 @@ spd.c <- spd(x=caldates_central,bins=bins_C,timeRange=c(800,0),runm=50)
 spd.s <- spd(x=caldates_southern,bins=bins_S,timeRange=c(800,0),runm=50)
 spd.nz <- spd(x=caldates,bins=bins,timeRange=c(800,0),runm=50)
 
-## (NEW) Block SPD and Geom Growth Rate
-source("./extra_code.R")
+## Extra Figure: Block SPD and Geometric Growth Rate
+source(""https://raw.githubusercontent.com/andybrown81/NZ_Population/master/extra_code.R"")
 spd.n.blk=spd2gg(spd.n,breaks=seq(750,150,-100))
 spd.c.blk=spd2gg(spd.c,breaks=seq(750,150,-100))
 spd.s.blk=spd2gg(spd.s,breaks=seq(750,150,-100))
@@ -192,7 +192,7 @@ logMod_central$pval
 grd_S <- spd.s$grid
 x <- grd_S$calBP
 y <- grd_S$PrDens
-log.ss <- nls(y~SSlogis(x, Asym, xmid, scale),control=nls.control(maxiter=200),start=list(Asym=0.8,xmid=400,scale=-100))
+log.ss <- nls(y~SSlogis(x, Asym, xmid, scale),control=nls.control(maxiter=200),start=list(Asym=0.4,xmid=400,scale=-100))
 logisticFit_S <- data.frame(calBP=x,PrDens=SSlogis(x,coefficients(log.ss)[1],coefficients(log.ss)[2], coefficients(log.ss)[3]))
 
 ### Check fit of model to observed data 
@@ -247,11 +247,10 @@ Perm <- permTest(x=caldates, marks = nzdates$Region, timeRange = c(800,0), nsim=
 
 ### Plot results for each region
 par(mfrow = c(3, 1))
-plot.SpdPermTest(Perm, focalm='2')
-plot.SpdPermTest(Perm, focalm='1')
-plot.SpdPermTest(Perm, focalm='3')
+plot.SpdPermTest(Perm, focalm='2') #northern region
+plot.SpdPermTest(Perm, focalm='1') #central region
+plot.SpdPermTest(Perm, focalm='3') #southern region
 
-?plot.SpdPermTest
 
 ### Get global p values (Note 1 = Central, 2 = Northern, 3 = Southern)
 Perm$pValueList
@@ -303,9 +302,8 @@ for (i in 1:c(nBreaks-1))
 
 res <- SPpermTest(calDates=caldates,bins=bins,timeRange=timeRange,locations=sites,permute="locations",nsim=1000,breaks=breaks,spatialweights=w,ncores=1,verbose=FALSE,raw=TRUE)
 
-###(NEW) Check local dynamics)
+### Check local dynamics - Equivalent to Figure 7
 searchSSPD(res)
-
 
 
 
@@ -317,8 +315,9 @@ base <- getMap(resolution="low") #extract basemap
 xrange <- bbox(sites)[1,]
 yrange <- bbox(sites)[2,]
 
-
 par(mfrow=c(2,3))
+
+### Figure 6
 
 for (i in 1:5)
 {
@@ -328,8 +327,6 @@ for (i in 1:5)
   legend("topleft",legend=c(NA),border=NA,title=as.roman(i),cex=2,bty="n")
 }
 
-
-## Figure 5
 plot(res,option="rawlegend",breakRange=c(-0.01,0.01),breakLength=9,rd=3,legSize=1.6)
 
 
@@ -344,7 +341,7 @@ for (i in 1:5)
   legend("topleft",legend=c(NA),border=NA,title=as.roman(i),cex=2,bty="n")
 }
 
-## Figure 6
+## Figure 7
 plot(res,option="testlegend",legSize=2)
 
 
