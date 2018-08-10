@@ -378,6 +378,80 @@ axis(side=1,at=1:5,labels=as.roman(1:5))
 axis(side=2)
 
 
+### ESM Sensitivty Analysis on Bandwidth Variation ###
+
+ws=numeric()
+bandwidth=c(50,100,200)
+permSens = vector("list",length=length(bandwidth))
+
+for (i in 1:length(bandwidth))
+{
+	ws = spweights(d,h=bandwidth[i])
+	permSens[[i]] <- SPpermTest(calDates=caldates,bins=bins,timeRange=timeRange,locations=sites,permute="locations",nsim=1000,breaks=breaks,spatialweights=ws,ncores=1,verbose=FALSE,raw=FALSE)
+}
+
+
+
+library(rworldmap)
+base <- getMap(resolution="low") #extract basemap
+#extract bounding coordinates of the site distribution
+xrange <- bbox(sites)[1,]
+yrange <- bbox(sites)[2,]
+
+
+# Growth Rate
+par(mfrow=c(3,5))
+leg=FALSE
+for (k in 1:length(bandwidth))
+{
+	for (i in 1:5)
+	{
+		par(mar=c(0.1,0.1,0,0.5))
+		plot(base,col="antiquewhite3",border="antiquewhite3",xlim=xrange,ylim=yrange)
+		if (i==5 & k==length(bandwidth))
+		{leg=TRUE}
+		plot(permSens[[k]],index=i,add=TRUE,option="raw",breakRange=c(-0.01,0.01),breakLength=9,baseSize=1,legend=leg)
+		if (k==1)
+		{
+			legend("topright",legend= paste0("Transition: ",as.roman(i)),cex=2,bty="n")
+		}	
+
+		if (i==1)
+		{
+			mtext(2,text = paste0(bandwidth[k],"km"),line=-1.75,cex=2)
+		}
+
+	}
+}
+
+
+
+# Test
+par(mfrow=c(3,5))
+
+leg=FALSE
+for (k in 1:length(bandwidth))
+{
+	for (i in 1:5)
+	{
+		par(mar=c(0.1,0.1,0,0.5))
+		plot(base,col="antiquewhite3",border="antiquewhite3",xlim=xrange,ylim=yrange)
+		if (i==5 & k==length(bandwidth))
+		{leg=TRUE}
+		plot(permSens[[k]],index=i,add=TRUE,option="test",breakRange=c(-0.01,0.01),breakLength=9,baseSize=1,legend=leg,legSize=1.2)
+		if (k==1)
+		{
+			legend("topright",legend= paste0("Transition: ",as.roman(i)),cex=2,bty="n")
+		}	
+
+		if (i==1)
+		{
+			mtext(2,text = paste0(bandwidth[k],"km"),line=-1.75,cex=2)
+		}
+
+	}
+}
+
 
 
 
