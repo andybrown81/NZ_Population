@@ -27,7 +27,7 @@ library(RCurl)
 require(RCurl)
 
 ### Read in 14C dates 
-nzdates <-read.csv(text=getURL("https://raw.githubusercontent.com/andybrown81/NZ_Population/master/SPDdata.csv"))
+nzdates <-read.csv(text=getURL("https://raw.githubusercontent.com/andybrown81/NZ_Population/master/SPD.csv"))
 
 ### Subset dates based on CRA. Pre 800 CRA is likely to be an 'old wood' date
 nzdates <- subset(nzdates,C14Age>0)
@@ -38,7 +38,7 @@ northern_dates <- subset(nzdates, Region=="Northern")
 central_dates <- subset(nzdates, Region=="Central")
 southern_dates <- subset(nzdates, Region=="Southern")
 
-### Check region lengths (ND - 165 | CD - 63 | SD - 85)
+### Check region lengths (ND - 202 | CD - 53 | SD - 79)
 length(unique(northern_dates$LabID))
 length(unique(central_dates$LabID))
 length(unique(southern_dates$LabID))
@@ -66,7 +66,7 @@ bins <- binPrep(sites=nzdates$SiteID,ages=nzdates$C14Age,h=100)
 # binsense(x=caldates_southern,y=southern_dates,sitecol="SiteID",agecol="C14Age",timeRange=c(800,0),runm=50,h=seq(10,200,10))
 # binsense(x=caldates_central,y=central_dates,sitecol="SiteID",agecol="C14Age",timeRange=c(800,0),runm=50,h=seq(10,200,10))
 
-### Check number of unique bins (Northern - 118 | Central - 42 | Southern - 52)
+### Check number of unique bins (Northern - 132 | Central - 36 | Southern - 48)
 length(unique(bins_N))
 length(unique(bins_C))
 length(unique(bins_S))
@@ -83,18 +83,6 @@ spd.n <- spd(x=caldates_northern,bins=bins_N,timeRange=c(800,0),runm=50)
 spd.c <- spd(x=caldates_central,bins=bins_C,timeRange=c(800,0),runm=50)
 spd.s <- spd(x=caldates_southern,bins=bins_S,timeRange=c(800,0),runm=50)
 spd.nz <- spd(x=caldates,bins=bins,timeRange=c(800,0),runm=50)
-
-## Extra Figure: Block SPD and Geometric Growth Rate
-source(""https://raw.githubusercontent.com/andybrown81/NZ_Population/master/extra_code.R"")
-spd.n.blk=spd2gg(spd.n,breaks=seq(750,150,-100))
-spd.c.blk=spd2gg(spd.c,breaks=seq(750,150,-100))
-spd.s.blk=spd2gg(spd.s,breaks=seq(750,150,-100))
-
-par(mfrow=c(1,3))
-plot.spd2gg(spd.n.blk,main="north")
-plot.spd2gg(spd.c.blk,main="central")
-plot.spd2gg(spd.s.blk,main="south")
-
 
 ### Plot SPDs
 par(mfrow = c(2, 2))
@@ -449,6 +437,20 @@ for (k in 1:length(bandwidth))
 	}
 }
 
+
+###############################################################
+##    Extra Figure: Block SPD and Geometric Growth Rate     ###
+###############################################################
+
+source(""https://raw.githubusercontent.com/andybrown81/NZ_Population/master/extra_code.R"")
+spd.n.blk=spd2gg(spd.n,breaks=seq(750,150,-100))
+spd.c.blk=spd2gg(spd.c,breaks=seq(750,150,-100))
+spd.s.blk=spd2gg(spd.s,breaks=seq(750,150,-100))
+
+par(mfrow=c(1,3))
+plot.spd2gg(spd.n.blk,main="north")
+plot.spd2gg(spd.c.blk,main="central")
+plot.spd2gg(spd.s.blk,main="south")
 
 
 
